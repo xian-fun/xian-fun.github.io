@@ -240,5 +240,71 @@
         "content": "2nd Floor, behind the bookshop. Free wifi, really nice atmosphere. The food is overpriced."
       }
     ]
+  },
+  {
+    "type": 2,
+    "rate": 98,
+    "name": "Park Qin",
+    "telephone": "029-87280092",
+    "location": {
+      "address": "碑林区 大南门内顺城西巷甲2号 South Ring Road  Nanyuanmen Residential District Shuncheng South Road",
+      "latitude": 34.251340,
+      "longitude": 108.945905
+    },
+    "image": {
+      "file_name": "park_qin.jpg",
+      "link": "images/park_qin.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "",
+        "content": "Qin dynasty theme bar. Nice mix of people, there are lots of young guys and foreigners. Beer is not fake but very expensive."
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "rate": 97,
+    "name": "China Fork Kitchen",
+    "telephone": "029-88350333",
+    "location": {
+      "address": "高新区 光德路6号",
+      "latitude": 34.234336,
+      "longitude": 108.901635
+    },
+    "image": {
+      "file_name": "china_fork.jpg",
+      "link": "images/china_fork.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "",
+        "content": "Good for foreigners, lots of dishes, picture menus. Vegetarian can get their suitable dishes as well."
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "rate": 97,
+    "name": "Lao Pu Beijing Duck",
+    "telephone": "029-68810888",
+    "location": {
+      "address": "高新区 团结南路239号(紫薇臻品东门对面)",
+      "latitude": 34.238813,
+      "longitude": 108.882205
+    },
+    "image": {
+      "file_name": "roast_duck.jpg",
+      "link": "images/roast_duck.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "",
+        "content": "picture menus, delicious duck and other dishes."
+      }
+    ]
   }
 ]
