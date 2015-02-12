@@ -1,0 +1,27 @@
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+.filter-bar {
+  border: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+  background-color: white;
+  text-align: left;
+}
+.filter-checkbox {
+  margin-left: 30px;
+  margin-right: 4px;
+}
+.filter-text{
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.filter-icon {
+  margin-right: 30px;
+  width: 20px;
+  vertical-align: middle; 
+}
