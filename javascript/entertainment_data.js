@@ -7,8 +7,8 @@ var entertainmentData = [
     location:
     {
       address: 'No 2, West Street',
-      latitude: 34.1111,
-      longtitude: 105.2222
+      latitude: 34.2043983,
+      longtitude: 108.8948503
     },
     image:
     {
@@ -32,13 +32,13 @@ var entertainmentData = [
   {
     type: 1,
     rate: 99,
-    name: 'Green Town',
+    name: 'Hu Lu Tou',
     telephone: '12345678',
     location:
     {
       address: 'No 2, West Street',
-      latitude: 34.1111,
-      longtitude: 105.2222
+      latitude: 34.209651,
+      longtitude: 108.895022
     },
     image:
     {

@@ -16,3 +16,6 @@ After the required `gem`s are installed, you can then run
 
 ```sh
 $ guard start
+
+Use python SimpleHttpServer for development:
+$ python -m SimpleHTTPServer
