@@ -30,7 +30,7 @@ var entertainmentData = [
       ]
   },
   {
-    type: 1,
+    type: 3,
     rate: 99,
     name: 'Hu Lu Tou',
     telephone: '12345678',
@@ -39,6 +39,41 @@ var entertainmentData = [
       address: 'No 2, West Street',
       latitude: 34.209651,
       longtitude: 108.895022
+    },
+    image:
+    {
+      file_name: 'green_town.jpg',
+      link: 'http://green-town.com'
+    },
+    comments:
+      [
+        {
+          author: 'JP',
+          avartar: 'jp.jpg',
+          content: 'Nice!'
+        },
+        {
+          author: 'Yongmin',
+          avartar: 'yongmin.jpg',
+          content: 'Nice +1!'
+        },
+        {
+          author: 'Yongmin',
+          avartar: 'yongmin.jpg',
+          content: 'Nice +1!'
+        }
+      ]
+  },
+  {
+    type: 2,
+    rate: 99,
+    name: 'Hu Lu Tou 2',
+    telephone: '12345678',
+    location:
+    {
+      address: 'No 2, West Street',
+      latitude: 34.247561,
+      longtitude: 108.946335
     },
     image:
     {

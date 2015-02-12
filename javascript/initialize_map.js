@@ -2,7 +2,7 @@
   // When the user clicks the marker, an info window opens.
   // The maximum width of the info window is set to 200 pixels.
 
-  function initialize() {
+function initialize() {
     var myLatlng = new google.maps.LatLng(34.2667, 108.9000);
     var mapOptions = {
       zoom: 13,
@@ -13,6 +13,7 @@
       renderMapPoint(entertainmentData[index], map);
     }
 }
+var topInfoWindow;
 
 function renderMapPoint(entity, map) {
   console.log(entity.location.latitude);
@@ -40,10 +41,12 @@ function renderMapPoint(entity, map) {
     position: position,
     map: map,
     title: entity.name,
-    icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+    icon: getIconForType(entity.type)
   });
   google.maps.event.addListener(marker, 'click', function () {
-    infowindow.open(map, marker);
+    if (topInfoWindow) topInfoWindow.close();
+    topInfoWindow = infowindow;
+    topInfoWindow.open(map, marker);
   });
 }
 
@@ -57,6 +60,13 @@ function initializeComments(entity) {
   }
   commentsString += '</ul>'
   return commentsString;
+}
+
+function getIconForType(type) {
+  if (type == '1') return 'images/food_marker.png';
+  if (type == '2') return 'images/play_marker.png';
+  if (type == '3') return 'images/travel_marker.png';
+  if (type == '4') return 'images/shopping_marker.png';
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
