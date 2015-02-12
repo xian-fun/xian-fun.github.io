@@ -56,6 +56,11 @@ var entertainmentData = [
           author: 'Yongmin',
           avartar: 'yongmin.jpg',
           content: 'Nice +1!'
+        },
+        {
+          author: 'Yongmin',
+          avartar: 'yongmin.jpg',
+          content: 'Nice +1!'
         }
       ]
   }

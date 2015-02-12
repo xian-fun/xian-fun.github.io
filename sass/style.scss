@@ -1,0 +1,43 @@
+#content {
+  width: 225px;
+}
+
+#firstHeading, #summary-info{
+  border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+#comments {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      height: 50px;
+      img {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        padding: 2px;
+        background-color: #e6e6e6;
+        vertical-align: text-top;
+      }
+      #comment-content {
+        display: inline-block;
+        margin-left: 5px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+#summary-info {
+  img {
+    height: 80px;
+  }
+}
+
+#label {
+  font-weight: bold;
+  span {
+    font-weight: normal;
+  }
+}

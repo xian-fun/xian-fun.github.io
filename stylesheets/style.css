@@ -1,0 +1,48 @@
+/* line 1, ../sass/style.scss */
+#content {
+  width: 225px;
+}
+
+/* line 5, ../sass/style.scss */
+#firstHeading, #summary-info {
+  border-bottom: 1px solid #999999;
+}
+
+/* line 10, ../sass/style.scss */
+#comments ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 13, ../sass/style.scss */
+#comments ul li {
+  height: 50px;
+}
+/* line 15, ../sass/style.scss */
+#comments ul li img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  background-color: #e6e6e6;
+  vertical-align: text-top;
+}
+/* line 23, ../sass/style.scss */
+#comments ul li #comment-content {
+  display: inline-block;
+  margin-left: 5px;
+  height: 40px;
+}
+
+/* line 33, ../sass/style.scss */
+#summary-info img {
+  height: 80px;
+}
+
+/* line 38, ../sass/style.scss */
+#label {
+  font-weight: bold;
+}
+/* line 40, ../sass/style.scss */
+#label span {
+  font-weight: normal;
+}

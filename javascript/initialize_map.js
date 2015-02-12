@@ -18,17 +18,16 @@ function renderMapPoint(entity, map) {
   console.log(entity.location.latitude);
   var position = new google.maps.LatLng(entity.location.latitude, entity.location.longtitude);
 
-  var contentString = '<div id="content"><image src='+ entity.image.file_name +'>' +
-    '<div id="siteNotice">' +
-    '</div>' +
+  var contentString = '<div id="content">' +
     '<h1 id="firstHeading" class="firstHeading">' + entity.name + '</h1>' +
     '<div id="bodyContent">' +
-    '<p> Address: '+ entity.location.address +'' +
-    '<br> Phone Number: ' + entity.telephone +
-    '</p>' +
-    '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
-    'https://en.wikipedia.org/w/index.php?title=Uluru</a> ' +
-    '(last visited June 22, 2009).</p>' +
+    '<div id="summary-info">' +
+    '<image src='+ entity.image.file_name +'>' +
+    '<div id="label"> Address: <span>'+ entity.location.address + '</span></div>' +
+    '<div id="label"> Phone Number: <span>' + entity.telephone + '</span></div>' +
+    '</div>' +
+    '<div id="comments">' + initializeComments(entity) +
+    '</div>' +
     '</div>' +
     '</div>';
 
@@ -46,7 +45,18 @@ function renderMapPoint(entity, map) {
   google.maps.event.addListener(marker, 'click', function () {
     infowindow.open(map, marker);
   });
+}
 
+function initializeComments(entity) {
+  var commentsString = '<ul>';
+  for (var index = 0; index < entity.comments.length; index ++) {
+    commentsString += '<li>' +
+        '<image scr = '+ entity.comments[index].avartar +'></image>' +
+        '<div id="comment-content">'+ entity.comments[index].content +'</div>'
+      '</li>'
+  }
+  commentsString += '</ul>'
+  return commentsString;
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
