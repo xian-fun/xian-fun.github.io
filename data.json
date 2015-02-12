@@ -1,13 +1,13 @@
 [
   {
     "type": 2,
-    "rate": 99,
+    "rate": 98,
     "name": "GelinTown",
     "telephone": "029-81775856",
     "location": {
       "address": "高新区唐延路旺座国际E座1010-7号",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.236248,
+      "longitude": 108.890552
     },
     "image": {
       "file_name": "gelin_town.jpg",
@@ -23,13 +23,13 @@
   },
   {
     "type": 2,
-    "rate": 99,
+    "rate": 97,
     "name": "Helen's",
     "telephone": "029-88257912",
     "location": {
       "address": "雁塔区 吉祥路21号吉祥小学2楼",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.223200,
+      "longitude": 108.930434
     },
     "image": {
       "file_name": "Helens.jpg",
@@ -45,13 +45,13 @@
   },
   {
     "type": 2,
-    "rate": 99,
+    "rate": 98,
     "name": "LAVAZZA",
     "telephone": "029-87651778",
     "location": {
       "address": "碑林区 南门外长安国际国贸春天广场2楼",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.247561,
+      "longitude": 108.946335
     },
     "image": {
       "file_name": "lavazza.jpg",
@@ -67,13 +67,13 @@
   },
   {
     "type": 1,
-    "rate": 99,
+    "rate": 95,
     "name": "XiaoYang BBQ",
     "telephone": "029-68853222",
     "location": {
       "address": "高新区 高新四路15号",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.238667,
+      "longitude": 108.896812
     },
     "image": {
       "file_name": "xiao_yang.jpg",
@@ -89,13 +89,13 @@
   },
   {
     "type": 1,
-    "rate": 99,
+    "rate": 93,
     "name": "Ban Ban Tea House",
     "telephone": "029-88318953",
     "location": {
       "address": "高新区 高新四路光和路十字西南角",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.239152,
+      "longitude": 108.896733
     },
     "image": {
       "file_name": "ban_ban.jpg",
@@ -111,13 +111,13 @@
   },
   {
     "type": 1,
-    "rate": 99,
+    "rate": 93,
     "name": "Liu Xiao Chu Dumpling house",
     "telephone": "029-88330588",
     "location": {
       "address": "高新区 高新四路甲8号嘉龙大厦1楼",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.239208,
+      "longitude": 108.896755
     },
     "image": {
       "file_name": "ban_ban.jpg",
@@ -133,13 +133,13 @@
   },
   {
     "type": 1,
-    "rate": 99,
+    "rate": 92,
     "name": "Lao Mi Jia pao mo",
     "telephone": "",
     "location": {
       "address": "高新区 高新四路甲字8号1楼",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.239394,
+      "longitude": 108.896651
     },
     "image": {
       "file_name": "lao_mi_jia.jpg",
@@ -155,13 +155,13 @@
   },
   {
     "type": 2,
-    "rate": 99,
+    "rate": 98,
     "name": "Funny Time KTV",
     "telephone": "029-88693366",
     "location": {
       "address": "高新区 高新四路8号新西蓝二期",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.237622,
+      "longitude": 108.896091
     },
     "image": {
       "file_name": "funny_time.jpg",
@@ -177,13 +177,13 @@
   },
   {
     "type": 1,
-    "rate": 99,
+    "rate": 96,
     "name": "Chinese Pancakes",
     "telephone": "029-84356788",
     "location": {
       "address": "高新区 高新四路8号新西蓝二期",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.237622,
+      "longitude": 108.896091
     },
     "image": {
       "file_name": "chinese_pancakes.jpg",
@@ -199,13 +199,13 @@
   },
   {
     "type": 1,
-    "rate": 99,
+    "rate": 92,
     "name": "Xi Lin Chun Noodles",
     "telephone": "029-84350105",
     "location": {
       "address": "高新区 高新四路8号新西蓝二期",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.237622,
+      "longitude": 108.896091
     },
     "image": {
       "file_name": "xilinchun.jpg",
@@ -221,13 +221,13 @@
   },
   {
     "type": 1,
-    "rate": 99,
+    "rate": 95,
     "name": "Sculpting in Time Cafe",
     "telephone": "029-88860857",
     "location": {
       "address": "雁塔区 科技路55号金桥国际B-C座2楼",
-      "latitude": 34.222,
-      "longitude": 13.111
+      "latitude": 34.237622,
+      "longitude": 108.896091
     },
     "image": {
       "file_name": "sculpting_in_time.jpg",
