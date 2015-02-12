@@ -46,3 +46,39 @@
 #label span {
   font-weight: normal;
 }
+
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+.filter-container{
+  color: rgb(25,25,25);
+  font-family: 'Roboto,Arial,sans-serif';
+  font-size: 16px;
+  line-height: 38px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.filter-bar{
+  border: solid;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+.filter-checkbox {
+  margin-left: 30px;
+  margin-right: 4px;
+}
+.filter-text{
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.filter-icon {
+  margin-right: 30px;
+  width: 20px;
+  vertical-align: middle; 
+}

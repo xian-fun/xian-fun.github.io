@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
+
     <title>Entertainment Map</title>
     <link href="stylesheets/style.css" type="text/css" rel="stylesheet" >
     <style>
@@ -12,11 +13,22 @@
             padding: 0px
         }
     </style>
-    <script src="javascript/entertainment_data.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="javascript/jquery-2.1.3.js"></script>
+    <script src="javascript/entertainment_data.js"></script>
+    <script src="javascript/filter-bar.js"></script>
     <script src="javascript/initialize_map.js"></script>
 </head>
 <body>
 <div id="map-canvas"></div>
+<div class="filter-container">
+    <div class="filter-bar">
+        <input type="checkbox" id="selectAll" class="filter-checkbox"><span class="filter-text">All</input>
+        <input type="checkbox" name="select" value="1" class="filter-checkbox"><span class="filter-text">Food</span><img class="filter-icon" src="images/food.png"/></input>
+        <input type="checkbox" name="select" value="2" class="filter-checkbox"><span class="filter-text">Play</span><img class="filter-icon" src="images/play.png"/></input>
+        <input type="checkbox" name="select" value="3" class="filter-checkbox"><span class="filter-text">Tour</span><img class="filter-icon" src="images/tour.png"/></input>
+        <input type="checkbox" name="select" value="4" class="filter-checkbox"><span class="filter-text">Shopping</span><img class="filter-icon" src="images/shopping.png"/></input>
+    </div>
+</div>
 </body>
 </html>

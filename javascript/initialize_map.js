@@ -12,6 +12,12 @@ function initialize() {
     for (var index = 0; index < entertainmentData.length; index ++) {
       renderMapPoint(entertainmentData[index], map);
     }
+
+     //add custom control
+    var centerControlDiv = document.createElement('div');
+    var centerControl = new CenterControl(centerControlDiv, map);
+    centerControlDiv.index = 1;
+    map.controls[google.maps.ControlPosition.LEFT_TOP].push(centerControlDiv);
 }
 var topInfoWindow;
 

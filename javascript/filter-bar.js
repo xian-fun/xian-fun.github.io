@@ -12,18 +12,9 @@ function CenterControl(controlDiv, map) {
 
   // Set CSS for the control interior
   var controlText = document.createElement('div');
-  controlText.style.color = 'rgb(25,25,25)';
-  controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
-  controlText.style.fontSize = '16px';
-  controlText.style.lineHeight = '38px';
-  controlText.style.paddingLeft = '50px';
-  controlText.style.paddingTop = '20px';
-  controlText.innerHTML = $(".filter-bar").prop("outerHTML");
-  controlUI.appendChild(controlText);
-  // $(controlText).removeAttr("style");
+  // controlText.innerHTML = $(".filter-bar").prop("outerHTML");
+  controlUI.appendChild($(".filter-container").get(0));
 
-  // Setup the click event listeners: simply set the map to
-  // Chicago
   google.maps.event.addDomListener(controlUI, 'click', function(e) {
     if(e.target.id != "selectAll"){
       // return;
