@@ -72,8 +72,8 @@ var entertainmentData = [
     "telephone": "029-68853222",
     "location": {
       "address": "高新区 高新四路15号",
-      "latitude": 34.238667,
-      "longitude": 108.896812
+      "latitude": 34.238665,
+      "longitude": 108.896817
     },
     "image": {
       "file_name": "xiao_yang.jpg",
@@ -116,8 +116,8 @@ var entertainmentData = [
     "telephone": "029-88330588",
     "location": {
       "address": "高新区 高新四路甲8号嘉龙大厦1楼",
-      "latitude": 34.239208,
-      "longitude": 108.896755
+      "latitude": 34.239215,
+      "longitude": 108.896750
     },
     "image": {
       "file_name": "liu_xiao_chu.jpg",
@@ -160,8 +160,8 @@ var entertainmentData = [
     "telephone": "029-88693366",
     "location": {
       "address": "高新区 高新四路8号新西蓝二期",
-      "latitude": 34.237622,
-      "longitude": 108.896091
+      "latitude": 34.237614,
+      "longitude": 108.896075
     },
     "image": {
       "file_name": "funny_time.jpg",
@@ -182,8 +182,8 @@ var entertainmentData = [
     "telephone": "029-84356788",
     "location": {
       "address": "高新区 高新四路8号新西蓝二期",
-      "latitude": 34.237622,
-      "longitude": 108.896091
+      "latitude": 34.237776,
+      "longitude": 108.896203
     },
     "image": {
       "file_name": "chinese_pancakes.jpg",
@@ -204,8 +204,8 @@ var entertainmentData = [
     "telephone": "029-84350105",
     "location": {
       "address": "高新区 高新四路8号新西蓝二期",
-      "latitude": 34.237622,
-      "longitude": 108.896091
+      "latitude": 34.237268,
+      "longitude": 108.895809
     },
     "image": {
       "file_name": "xi_lin_chun.jpg",
@@ -226,8 +226,8 @@ var entertainmentData = [
     "telephone": "029-88860857",
     "location": {
       "address": "雁塔区 科技路55号金桥国际B-C座2楼",
-      "latitude": 34.237622,
-      "longitude": 108.896091
+      "latitude": 34.235880,
+      "longitude": 108.892561
     },
     "image": {
       "file_name": "sculpting_in_time.jpg",
@@ -314,8 +314,8 @@ var entertainmentData = [
     "telephone": "029-87257507",
     "location": {
       "address": "碑林区 回民街北院门93号",
-      "latitude": 34.268521,
-      "longitude": 108.950242
+      "latitude": 34.262177,
+      "longitude": 108.943745
     },
     "image": {
       "file_name": "jia_san.jpg",
@@ -336,8 +336,8 @@ var entertainmentData = [
     "telephone": "029-88315552",
     "location": {
       "address": "高新区 科技路39号亚美大厦1层（近科技路）",
-      "latitude": 34.239265,
-      "longitude": 108.906821
+      "latitude": 34.233562,
+      "longitude": 108.900190
     },
     "image": {
       "file_name": "hooters.jpg",
@@ -358,8 +358,8 @@ var entertainmentData = [
     "telephone": "029-85366666",
     "location": {
       "address": "雁塔区 环塔南路东段6号大雁塔南广场",
-      "latitude": 34.222767,
-      "longitude": 108.967522
+      "latitude": 34.216361,
+      "longitude": 108.962005
     },
     "image": {
       "file_name": "qin_han_tang.jpg",
@@ -380,8 +380,8 @@ var entertainmentData = [
     "telephone": "029-88338586",
     "location": {
       "address": "高新区 科技路25号路南玫瑰大楼3楼",
-      "latitude": 34.240093,
-      "longitude": 108.903194
+      "latitude": 34.234537,
+      "longitude": 108.896582
     },
     "image": {
       "file_name": "ri_yue_tan.jpg",
@@ -402,8 +402,8 @@ var entertainmentData = [
     "telephone": "029-88362058",
     "location": {
       "address": "高新区 高新四路1号高科广场3楼",
-      "latitude": 34.247934,
-      "longitude": 108.907568
+      "latitude": 34.242505,
+      "longitude": 108.900783
     },
     "image": {
       "file_name": "hai_di_lao.jpg",
@@ -424,8 +424,8 @@ var entertainmentData = [
     "telephone": "029-85258888",
     "location": {
       "address": "雁塔区 长安南路86号(电视塔西)",
-      "latitude": 34.200788,
-      "longitude": 108.951761
+      "latitude": 34.194456,
+      "longitude": 108.945436
     },
     "image": {
       "file_name": "metro.jpg",
@@ -446,8 +446,8 @@ var entertainmentData = [
     "telephone": "029-88319788",
     "location": {
       "address": "雁塔区 唐延路3号卜蜂莲花(近科技路)",
-      "latitude": 34.241219,
-      "longitude": 108.896758
+      "latitude": 34.234831,
+      "longitude": 108.890170
     },
     "image": {
       "file_name": "lotus.jpg",
@@ -468,8 +468,8 @@ var entertainmentData = [
     "telephone": "029-84272076",
     "location": {
       "address": "莲湖区 桃园南路(近南二环)",
-      "latitude": 34.254021,
-      "longitude": 108.905653
+      "latitude": 34.247288,
+      "longitude": 108.900619
     },
     "image": {
       "file_name": "fengqing_park.jpg",
@@ -495,8 +495,8 @@ var entertainmentData = [
     "telephone": "15502918518",
     "location": {
       "address": "雁塔区 科技路金桥国际A座一层(星巴克斜对面)",
-      "latitude": 34.240429,
-      "longitude": 108.900068
+      "latitude": 34.247288,
+      "longitude": 108.900619
     },
     "image": {
       "file_name": "coffee_lab.jpg",
@@ -518,8 +518,8 @@ var entertainmentData = [
     "telephone": "029-81337426",
     "location": {
       "address": "高新区 唐延路(金桥国际对面)",
-      "latitude": 34.242204,
-      "longitude": 108.899674
+      "latitude": 34.235756,
+      "longitude": 108.892719
     },
     "image": {
       "file_name": "library_cafe.jpg",
@@ -541,8 +541,8 @@ var entertainmentData = [
     "telephone": "029-62826888",
     "location": {
       "address": "高新区 南二环太白路口(西安电子科技大学北门对面)",
-      "latitude": 34.241406,
-      "longitude": 108.925762
+      "latitude": 34.235675,
+      "longitude": 108.918946
     },
     "image": {
       "file_name": "decathlon.jpg",
@@ -564,8 +564,8 @@ var entertainmentData = [
     "telephone": "029-81883339",
     "location": {
       "address": "高新区 高新路高科大厦副楼1楼(近世纪金花后门)",
-      "latitude": 34.239183,
-      "longitude": 108.911109
+      "latitude": 34.232695,
+      "longitude": 108.905147
     },
     "image": {
       "file_name": "green_molly.jpg",
