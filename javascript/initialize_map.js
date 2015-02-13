@@ -3,9 +3,9 @@
   // The maximum width of the info window is set to 200 pixels.
 var allMarkers = {'1':[], '2':[], '3':[], '4':[]};
 function initialize() {
-    var myLatlng = new google.maps.LatLng(34.2667, 108.9000);
+    var myLatlng = new google.maps.LatLng(34.233006, 108.897072);
     var mapOptions = {
-      zoom: 12,
+      zoom: 13,
       center: myLatlng
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);

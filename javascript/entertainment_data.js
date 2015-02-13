@@ -576,8 +576,7 @@ var entertainmentData = [
       {
         "author": "Mike Breeze",
         "avatar": "mike.jpg",
-        "content": "" +
-        "The famous Green Mollies! Good bar downstairs with lots of European beers. You need a membership card to buy drinks which costs RMB300. The restaurant on the ground floor serves excellent steaks for a reasonable price."
+        "content": "The famous Green Mollies! Good bar downstairs with lots of European beers. You need a membership card to buy drinks which costs RMB300. The restaurant on the ground floor serves excellent steaks for a reasonable price."
       }
     ]
   }
