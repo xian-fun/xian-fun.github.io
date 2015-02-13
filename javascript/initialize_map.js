@@ -78,3 +78,4 @@ function getIconForType(type) {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
