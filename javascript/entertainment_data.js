@@ -372,5 +372,71 @@ var entertainmentData = [
         "content": "Good shopping mall with cinema."
       }
     ]
+  },
+  {
+    "type": 2,
+    "rate": 96,
+    "name": "Ri Yue Tan Foot Massage",
+    "telephone": "029-88338586",
+    "location": {
+      "address": "高新区 科技路25号路南玫瑰大楼3楼",
+      "latitude": 34.240093,
+      "longitude": 108.903194
+    },
+    "image": {
+      "file_name": "ri_yue_tan.jpg",
+      "link": "ri_yue_tan.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "jp.jpg",
+        "content": "Six people in a room, safe place, next to Shangri-La hotel."
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "rate": 96,
+    "name": "Hai Di Lao hotpot",
+    "telephone": "029-88362058",
+    "location": {
+      "address": "高新区 高新四路1号高科广场3楼",
+      "latitude": 34.247934,
+      "longitude": 108.907568
+    },
+    "image": {
+      "file_name": "hai_di_lao.jpg",
+      "link": "hai_di_lao.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "jp.jpg",
+        "content": "Ipad menu, good service."
+      }
+    ]
+  },
+  {
+    "type": 4,
+    "rate": 96,
+    "name": "Metro",
+    "telephone": "029-85258888",
+    "location": {
+      "address": " 雁塔区 长安南路86号(电视塔西)",
+      "latitude": 34.200788,
+      "longitude": 108.951761
+    },
+    "image": {
+      "file_name": "metro.jpg",
+      "link": "metro.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "jp.jpg",
+        "content": "Need membership card, you can buy it from taobao, not very expensive, lots of foreign food."
+      }
+    ]
   }
 ]
