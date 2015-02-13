@@ -634,5 +634,28 @@ var entertainmentData = [
         "content": "Great bar for relaxing after a day of walking around the wall or old city. Good European beers, passable burgers in the evening, and a crazy chinese rock and roll guitar maestro on most Friday nights."
       }
     ]
+  },
+  {
+    "type": 1,
+    "rate": 96,
+    "name": "LiangMa Dessert",
+    "telephone": "029-62693939",
+    "location": {
+      "address": "雁塔区 锦业路锦业时代A1座一层",
+      "latitude": 34.192025,
+      "longitude": 108.876914
+    },
+    "image": {
+      "file_name": "liang_ma.jpg",
+      "link": "liang_ma.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Tong Tong",
+        "avatar": "tong_tong.jpg",
+        "content": "The food in my restaurant is pretty good, and you can find my future wife(Liang Ma) there. Liang Ma and me will live together happily forever."
+      }
+    ]
   }
 ]
