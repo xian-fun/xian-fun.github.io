@@ -266,7 +266,7 @@ var entertainmentData = [
   {
     "type": 1,
     "rate": 97,
-    "name": "China Fork Kitchen",
+    "name": "China Folk Kitchen",
     "telephone": "029-88350333",
     "location": {
       "address": "高新区 光德路6号",
@@ -495,8 +495,8 @@ var entertainmentData = [
     "telephone": "15502918518",
     "location": {
       "address": "雁塔区 科技路金桥国际A座一层(星巴克斜对面)",
-      "latitude": 34.247288,
-      "longitude": 108.900619
+      "latitude": 34.234523,
+      "longitude": 108.892487
     },
     "image": {
       "file_name": "coffee_lab.jpg",
@@ -518,8 +518,8 @@ var entertainmentData = [
     "telephone": "029-81337426",
     "location": {
       "address": "高新区 唐延路(金桥国际对面)",
-      "latitude": 34.235756,
-      "longitude": 108.892719
+      "latitude": 34.236368,
+      "longitude": 108.893490
     },
     "image": {
       "file_name": "library_cafe.jpg",
