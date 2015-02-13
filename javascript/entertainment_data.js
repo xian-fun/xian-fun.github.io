@@ -602,12 +602,12 @@ var entertainmentData = [
       },
       {
         "author": "Simon Sheridan",
-        "avatar": "",
+        "avatar": "simon.jpg",
         "content": "I think most Feelings photos are not good to be made public"
       },
       {
         "author": "Andrew Cosgriff",
-        "avatar": "",
+        "avatar": "cos.jpg",
         "content": "Feelings should have an extra-special page, especially not that video of me & siebert murdering a perfectly good Elvis song."
       }
     ]
