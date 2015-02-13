@@ -558,7 +558,7 @@ var entertainmentData = [
     ]
   },
   {
-    "type": 1,
+    "type": 2,
     "rate": 96,
     "name": "Green Molly",
     "telephone": "029-81883339",
@@ -577,6 +577,61 @@ var entertainmentData = [
         "author": "Mike Breeze",
         "avatar": "mike.jpg",
         "content": "The famous Green Mollies! Good bar downstairs with lots of European beers. You need a membership card to buy drinks which costs RMB300. The restaurant on the ground floor serves excellent steaks for a reasonable price."
+      }
+    ]
+  },
+  {
+    "type": 2,
+    "rate": 96,
+    "name": "Feelings Bar",
+    "telephone": "",
+    "location": {
+      "address": "高新区 高新四路13号",
+      "latitude": 34.238653,
+      "longitude": 108.898024
+    },
+    "image": {
+      "file_name": "feelings.jpg",
+      "link": "feelings.jpg"
+    },
+    "comments": [
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "The one and only. Juan Juan and her friendly team make this a wonderful place for a long drink. It always looks quiet; but stay there late enough and it will get crazy for you:)"
+      },
+      {
+        "author": "Simon Sheridan",
+        "avatar": "",
+        "content": "I think most Feelings photos are not good to be made public"
+      },
+      {
+        "author": "Andrew Cosgriff",
+        "avatar": "",
+        "content": "Feelings should have an extra-special page, especially not that video of me & siebert murdering a perfectly good Elvis song."
+      }
+    ]
+  },
+  {
+    "type": 2,
+    "rate": 96,
+    "name": "Jienuo Belgium Pub",
+    "telephone": "",
+    "location": {
+      "address": "顺城南路中段69",
+      "latitude": 34.252076,
+      "longitude": 108.949210
+    },
+    "image": {
+      "file_name": "belgium_pub.jpg",
+      "link": "belgium_pub.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "Great bar for relaxing after a day of walking around the wall or old city. Good European beers, passable burgers in the evening, and a crazy chinese rock and roll guitar maestro on most Friday nights."
       }
     ]
   }
