@@ -1,11 +1,11 @@
   // This example displays a marker at the center of Australia.
   // When the user clicks the marker, an info window opens.
   // The maximum width of the info window is set to 200 pixels.
-
+var allMarkers = {'1':[], '2':[], '3':[], '4':[]};
 function initialize() {
     var myLatlng = new google.maps.LatLng(34.2667, 108.9000);
     var mapOptions = {
-      zoom: 13,
+      zoom: 12,
       center: myLatlng
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -22,7 +22,6 @@ function initialize() {
 var topInfoWindow;
 
 function renderMapPoint(entity, map) {
-  console.log(entity.location.latitude);
   var position = new google.maps.LatLng(entity.location.latitude, entity.location.longtitude);
 
   var contentString = '<div id="content">' +
@@ -49,6 +48,9 @@ function renderMapPoint(entity, map) {
     title: entity.name,
     icon: getIconForType(entity.type)
   });
+ 
+  allMarkers[entity.type.toString()].push(marker);
+
   google.maps.event.addListener(marker, 'click', function () {
     if (topInfoWindow) topInfoWindow.close();
     topInfoWindow = infowindow;

@@ -1,6 +1,11 @@
 // This example displays a marker at the center of Australia.
 // When the user clicks the marker, an info window opens.
 // The maximum width of the info window is set to 200 pixels.
+var selectedCategories = {'1': true, '2': true, '3': true, '4': true};
+
+$('[name=select]:checkbox').bind('click', function(){
+});
+
 function CenterControl(controlDiv, map) {
   // Set CSS for the control border
   var controlUI = document.createElement('div');
@@ -25,14 +30,27 @@ function CenterControl(controlDiv, map) {
         }
       });
       $("#selectAll").prop('checked', isAllSelected);
-      return;
-    }
 
-    var checkboxes = $(this).closest('div').find(':checkbox');
-    if($("#selectAll").is(':checked')) {
-      checkboxes.prop('checked', true);
-    } else {
-      checkboxes.prop('checked', false);
+      target = $(e.target);
+      selectedCategories[target.val()] = target.is(':checked');
     }
+    else{
+      var checkboxes = $(this).closest('div').find(':checkbox');
+      var selectAll = $("#selectAll").is(':checked');
+      checkboxes.prop('checked', selectAll);
+      for(var ele in selectedCategories)
+      {
+        selectedCategories[ele] = selectAll;
+      }
+    }
+    reloadData(selectedCategories);
   });
 }
+
+var reloadData = function(selectedCategories){
+  for(value in selectedCategories){
+    for (var i = 0; i < allMarkers[value].length; i++) {
+      allMarkers[value][i].setVisible(selectedCategories[value]);
+    }
+  }
+};
