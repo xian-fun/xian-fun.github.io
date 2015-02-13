@@ -5,7 +5,7 @@ var allMarkers = {'1':[], '2':[], '3':[], '4':[]};
 function initialize() {
     var myLatlng = new google.maps.LatLng(34.233006, 108.897072);
     var mapOptions = {
-      zoom: 14,
+      zoom: 16,
       center: myLatlng
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
