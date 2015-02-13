@@ -1,29 +1,31 @@
-#content {
-  width: 225px;
-}
-
-#firstHeading, #summary-info{
+  #firstHeading, #summary-info{
   border-bottom: 1px solid rgb(153, 153, 153);
 }
 
 #comments {
-  ul {
+  table {
     list-style-type: none;
     padding-left: 0;
-    li {
+    td {
+      padding: 2px;
+      vertical-align: top;
       height: 50px;
+      label {
+        font-size: 10px;
+      }
       img {
         display: inline-block;
         width: 40px;
         height: 40px;
         padding: 2px;
         background-color: #e6e6e6;
-        vertical-align: text-top;
+        vertical-align: text-bottom;
       }
       #comment-content {
         display: inline-block;
         margin-left: 5px;
         height: 40px;
+        width: 135px;
       }
     }
   }
@@ -31,7 +33,7 @@
 
 #summary-info {
   img {
-    height: 80px;
+    width: 200px;
   }
 }
 
@@ -40,4 +42,40 @@
   span {
     font-weight: normal;
   }
+}
+
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+.filter-container{
+  color: rgb(25,25,25);
+  font-family: 'Roboto,Arial,sans-serif';
+  font-size: 16px;
+  line-height: 38px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.filter-bar{
+  border: solid;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+.filter-checkbox {
+  margin-left: 30px;
+  margin-right: 4px;
+}
+.filter-text{
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.filter-icon {
+  margin-right: 30px;
+  width: 20px;
+  vertical-align: middle;
 }

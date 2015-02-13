@@ -1,66 +1,73 @@
 /* line 1, ../sass/style.scss */
-#content {
-  width: 225px;
-}
-
-/* line 5, ../sass/style.scss */
 #firstHeading, #summary-info {
   border-bottom: 1px solid #999999;
 }
 
-/* line 10, ../sass/style.scss */
-#comments ul {
+/* line 6, ../sass/style.scss */
+#comments table {
   list-style-type: none;
   padding-left: 0;
 }
-/* line 13, ../sass/style.scss */
-#comments ul li {
+/* line 9, ../sass/style.scss */
+#comments table td {
+  padding: 2px;
+  vertical-align: top;
   height: 50px;
 }
-/* line 15, ../sass/style.scss */
-#comments ul li img {
+/* line 13, ../sass/style.scss */
+#comments table td label {
+  font-size: 10px;
+}
+/* line 16, ../sass/style.scss */
+#comments table td img {
   display: inline-block;
   width: 40px;
   height: 40px;
   padding: 2px;
   background-color: #e6e6e6;
-  vertical-align: text-top;
+  vertical-align: text-bottom;
 }
-/* line 23, ../sass/style.scss */
-#comments ul li #comment-content {
+/* line 24, ../sass/style.scss */
+#comments table td #comment-content {
   display: inline-block;
   margin-left: 5px;
   height: 40px;
+  width: 135px;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 #summary-info img {
-  height: 80px;
+  width: 200px;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 #label {
   font-weight: bold;
 }
-/* line 40, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 #label span {
   font-weight: normal;
 }
 
+/* line 47, ../sass/style.scss */
 html, body, #map-canvas {
   height: 100%;
   margin: 0px;
-  padding: 0px
+  padding: 0px;
 }
-.filter-container{
-  color: rgb(25,25,25);
+
+/* line 52, ../sass/style.scss */
+.filter-container {
+  color: #191919;
   font-family: 'Roboto,Arial,sans-serif';
   font-size: 16px;
   line-height: 38px;
   padding-left: 50px;
   padding-top: 20px;
 }
-.filter-bar{
+
+/* line 60, ../sass/style.scss */
+.filter-bar {
   border: solid;
   background-color: white;
   border-width: 2px;
@@ -69,16 +76,22 @@ html, body, #map-canvas {
   line-height: 30px;
   text-align: left;
 }
+
+/* line 69, ../sass/style.scss */
 .filter-checkbox {
   margin-left: 30px;
   margin-right: 4px;
 }
-.filter-text{
+
+/* line 73, ../sass/style.scss */
+.filter-text {
   vertical-align: middle;
   margin-right: 4px;
 }
+
+/* line 77, ../sass/style.scss */
 .filter-icon {
   margin-right: 30px;
   width: 20px;
-  vertical-align: middle; 
+  vertical-align: middle;
 }

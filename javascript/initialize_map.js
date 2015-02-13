@@ -59,14 +59,17 @@ function renderMapPoint(entity, map) {
 }
 
 function initializeComments(entity) {
-  var commentsString = '<ul>';
+  var commentsString = '<table>';
   for (var index = 0; index < entity.comments.length; index ++) {
-    commentsString += '<li>' +
-        '<image scr = "images/'+ entity.comments[index].avartar +'"></image>' +
-        '<div id="comment-content">'+ entity.comments[index].content +'</div>'
-      '</li>'
+    commentsString += '<tr>' +
+        '<td>' +
+          '<image src = "images/'+ entity.comments[index].avatar +'"></image>' +
+          '<label>' + entity.comments[index].author + '</label>' +
+        '</td>' +
+        '<td id="comment-content">'+ entity.comments[index].content +'</td>'
+      '</tr>'
   }
-  commentsString += '</ul>'
+  commentsString += '</table>'
   return commentsString;
 }
 
