@@ -423,7 +423,7 @@ var entertainmentData = [
     "name": "Metro",
     "telephone": "029-85258888",
     "location": {
-      "address": " 雁塔区 长安南路86号(电视塔西)",
+      "address": "雁塔区 长安南路86号(电视塔西)",
       "latitude": 34.200788,
       "longitude": 108.951761
     },
@@ -436,6 +436,148 @@ var entertainmentData = [
         "author": "Jonathon Padfield",
         "avatar": "jp.jpg",
         "content": "Need membership card, you can buy it from taobao, not very expensive, lots of foreign food."
+      }
+    ]
+  },
+  {
+    "type": 4,
+    "rate": 96,
+    "name": "Lotus",
+    "telephone": "029-88319788",
+    "location": {
+      "address": "雁塔区 唐延路3号卜蜂莲花(近科技路)",
+      "latitude": 34.241219,
+      "longitude": 108.896758
+    },
+    "image": {
+      "file_name": "lotus.jpg",
+      "link": "lotus.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "jp.jpg",
+        "content": "Lots of good food, there is a KTV in the building which has more foreign songs than Funny Time."
+      }
+    ]
+  },
+  {
+    "type": 3,
+    "rate": 96,
+    "name": "Feng Qing Park",
+    "telephone": "029-84272076",
+    "location": {
+      "address": "莲湖区 桃园南路(近南二环)",
+      "latitude": 34.254021,
+      "longitude": 108.905653
+    },
+    "image": {
+      "file_name": "fengqing_park.jpg",
+      "link": "fengqing_park.jpg"
+    },
+    "comments": [
+      {
+        "author": "Jonathon Padfield",
+        "avatar": "jp.jpg",
+        "content": "Lots of people play music and square dance."
+      },
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "It's quiet, JP and I usually walk through it."
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "rate": 96,
+    "name": "COFFEE LAB",
+    "telephone": "15502918518",
+    "location": {
+      "address": "雁塔区 科技路金桥国际A座一层(星巴克斜对面)",
+      "latitude": 34.240429,
+      "longitude": 108.900068
+    },
+    "image": {
+      "file_name": "coffee_lab.jpg",
+      "link": "coffee_lab.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "Best coffee in Gaoxin! The team at Coffee Lab roast and blend their own coffee and are constantly experimenting with their skills to improve their coffee. Wifi and simple food also available."
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "rate": 96,
+    "name": "Library Cafe",
+    "telephone": "029-81337426",
+    "location": {
+      "address": "高新区 唐延路(金桥国际对面)",
+      "latitude": 34.242204,
+      "longitude": 108.899674
+    },
+    "image": {
+      "file_name": "library_cafe.jpg",
+      "link": "library_cafe.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "Good peaceful place to work from on the 2nd floor. 2nd hand books available. Good coffee and simple food, plus beer and wine for later in the day. There is also a good gift shop on the 3rd floor."
+      }
+    ]
+  },
+  {
+    "type": 4,
+    "rate": 96,
+    "name": "Decathlon",
+    "telephone": "029-62826888",
+    "location": {
+      "address": "高新区 南二环太白路口(西安电子科技大学北门对面)",
+      "latitude": 34.241406,
+      "longitude": 108.925762
+    },
+    "image": {
+      "file_name": "decathlon.jpg",
+      "link": "decathlon.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "Great sporting goods and clothes and the only place in Xi'an I've been able to get shoes in my size:)"
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "rate": 96,
+    "name": "Green Molly",
+    "telephone": "029-81883339",
+    "location": {
+      "address": "高新区 高新路高科大厦副楼1楼(近世纪金花后门)",
+      "latitude": 34.239183,
+      "longitude": 108.911109
+    },
+    "image": {
+      "file_name": "green_molly.jpg",
+      "link": "green_molly.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "" +
+        "The famous Green Mollies! Good bar downstairs with lots of European beers. You need a membership card to buy drinks which costs RMB300. The restaurant on the ground floor serves excellent steaks for a reasonable price."
       }
     ]
   }
