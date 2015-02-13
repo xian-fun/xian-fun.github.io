@@ -9,6 +9,8 @@ function initialize() {
       center: myLatlng
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    renderThoughtWorks(map);
+
     for (var index = 0; index < entertainmentData.length; index ++) {
       renderMapPoint(entertainmentData[index], map);
     }
@@ -78,6 +80,39 @@ function getIconForType(type) {
   if (type == '2') return 'images/play_marker.png';
   if (type == '3') return 'images/travel_marker.png';
   if (type == '4') return 'images/shopping_marker.png';
+}
+
+function renderThoughtWorks(map) {
+  var position = new google.maps.LatLng(34.1909738, 108.8783634);
+
+  var contentString = '<div id="content">' +
+    '<h1 id="firstHeading" class="firstHeading"> ThoughtWorks </h1>' +
+    '<div id="bodyContent">' +
+    '<div id="summary-info">' +
+    'We are a software company and a community of passionate, purpose-led individuals. We think disruptively to deliver technology to address our clients' +
+    '<div id="label"> Address: <span> Room 01, 15th Floor, Bldg 1, IT Incubator, 2nd Area of National Service Outsourcing Demonstration Bast, 1st Jinye Rd, Hi-tech Development District, Xian, Shaanxi, China </span></div>' +
+    '<div id="label"> Phone Number: <span> +86-029-68659600 </span></div>' +
+    '</div>' +
+    '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 200
+  });
+
+  var marker = new google.maps.Marker({
+    position: position,
+    map: map,
+    title: 'ThoughtWorks',
+    icon: 'images/thoughtworks-marker.png'
+  });
+
+  google.maps.event.addListener(marker, 'click', function () {
+    if (topInfoWindow) topInfoWindow.close();
+    topInfoWindow = infowindow;
+    topInfoWindow.open(map, marker);
+  });
+
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
