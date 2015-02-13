@@ -22,13 +22,13 @@ function initialize() {
 var topInfoWindow;
 
 function renderMapPoint(entity, map) {
-  var position = new google.maps.LatLng(entity.location.latitude, entity.location.longtitude);
+  var position = new google.maps.LatLng(entity.location.latitude, entity.location.longitude);
 
   var contentString = '<div id="content">' +
     '<h1 id="firstHeading" class="firstHeading">' + entity.name + '</h1>' +
     '<div id="bodyContent">' +
     '<div id="summary-info">' +
-    '<image src='+ entity.image.file_name +'>' +
+    '<image src= "images/'+ entity.image.file_name +'">' + '</image>' +
     '<div id="label"> Address: <span>'+ entity.location.address + '</span></div>' +
     '<div id="label"> Phone Number: <span>' + entity.telephone + '</span></div>' +
     '</div>' +
@@ -62,7 +62,7 @@ function initializeComments(entity) {
   var commentsString = '<ul>';
   for (var index = 0; index < entity.comments.length; index ++) {
     commentsString += '<li>' +
-        '<image scr = '+ entity.comments[index].avartar +'></image>' +
+        '<image scr = "images/'+ entity.comments[index].avartar +'"></image>' +
         '<div id="comment-content">'+ entity.comments[index].content +'</div>'
       '</li>'
   }
