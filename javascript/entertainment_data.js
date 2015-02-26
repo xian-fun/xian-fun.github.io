@@ -266,7 +266,7 @@ var entertainmentData = [
   {
     "type": 1,
     "rate": 97,
-    "name": "China Fork Kitchen",
+    "name": "China Folk Kitchen",
     "telephone": "029-88350333",
     "location": {
       "address": "高新区 光德路6号",
@@ -495,8 +495,8 @@ var entertainmentData = [
     "telephone": "15502918518",
     "location": {
       "address": "雁塔区 科技路金桥国际A座一层(星巴克斜对面)",
-      "latitude": 34.247288,
-      "longitude": 108.900619
+      "latitude": 34.234523,
+      "longitude": 108.892487
     },
     "image": {
       "file_name": "coffee_lab.jpg",
@@ -518,8 +518,8 @@ var entertainmentData = [
     "telephone": "029-81337426",
     "location": {
       "address": "高新区 唐延路(金桥国际对面)",
-      "latitude": 34.235756,
-      "longitude": 108.892719
+      "latitude": 34.236368,
+      "longitude": 108.893490
     },
     "image": {
       "file_name": "library_cafe.jpg",
@@ -558,7 +558,7 @@ var entertainmentData = [
     ]
   },
   {
-    "type": 1,
+    "type": 2,
     "rate": 96,
     "name": "Green Molly",
     "telephone": "029-81883339",
@@ -577,6 +577,84 @@ var entertainmentData = [
         "author": "Mike Breeze",
         "avatar": "mike.jpg",
         "content": "The famous Green Mollies! Good bar downstairs with lots of European beers. You need a membership card to buy drinks which costs RMB300. The restaurant on the ground floor serves excellent steaks for a reasonable price."
+      }
+    ]
+  },
+  {
+    "type": 2,
+    "rate": 96,
+    "name": "Feelings Bar",
+    "telephone": "",
+    "location": {
+      "address": "高新区 高新四路13号",
+      "latitude": 34.238653,
+      "longitude": 108.898024
+    },
+    "image": {
+      "file_name": "feelings.jpg",
+      "link": "feelings.jpg"
+    },
+    "comments": [
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "The one and only. Juan Juan and her friendly team make this a wonderful place for a long drink. It always looks quiet; but stay there late enough and it will get crazy for you:)"
+      },
+      {
+        "author": "Simon Sheridan",
+        "avatar": "simon.jpg",
+        "content": "I think most Feelings photos are not good to be made public"
+      },
+      {
+        "author": "Andrew Cosgriff",
+        "avatar": "cos.jpg",
+        "content": "Feelings should have an extra-special page, especially not that video of me & siebert murdering a perfectly good Elvis song."
+      }
+    ]
+  },
+  {
+    "type": 2,
+    "rate": 96,
+    "name": "Jienuo Belgium Pub",
+    "telephone": "",
+    "location": {
+      "address": "顺城南路中段69",
+      "latitude": 34.252076,
+      "longitude": 108.949210
+    },
+    "image": {
+      "file_name": "belgium_pub.jpg",
+      "link": "belgium_pub.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Mike Breeze",
+        "avatar": "mike.jpg",
+        "content": "Great bar for relaxing after a day of walking around the wall or old city. Good European beers, passable burgers in the evening, and a crazy chinese rock and roll guitar maestro on most Friday nights."
+      }
+    ]
+  },
+  {
+    "type": 1,
+    "rate": 96,
+    "name": "LiangMa Dessert",
+    "telephone": "029-62693939",
+    "location": {
+      "address": "雁塔区 锦业路锦业时代A1座一层",
+      "latitude": 34.192025,
+      "longitude": 108.876914
+    },
+    "image": {
+      "file_name": "liang_ma.jpg",
+      "link": "liang_ma.jpg"
+    },
+    "comments": [
+
+      {
+        "author": "Tong Tong",
+        "avatar": "tong_tong.jpg",
+        "content": "The food in my restaurant is pretty good, and you can find my future wife(Liang Ma) there. Liang Ma and me will live together happily forever."
       }
     ]
   }
